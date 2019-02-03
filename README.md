@@ -1,13 +1,5 @@
 # Emaily
 
-Web App using React, Redux, Node.js and MongoDB to send surveys to a list of recipients.
+Web App to send surveys to a list of recipients and collect the answers. Made with React, Redux, Node.js and MongoDB.
 
-## Run the project
-
-Run server and client: ``` npm run dev ```
-
-This project uses the Stripe payment API in test mode.
-
-To add credits: Any email address; Card number: 4242 4242 4242 4242; Any expiration date in the future; Any CVC.
-
-Created with the help of the Udemy course "Node with React: Fullstack Web Development"
+The file containing the identifiers of the database and the private keys for Google OAuth, Stripe (the payment API), and Sendgrid (the platform to manage the emails), is not present in the repository. For this reason, it is not possible to run the project locally.
